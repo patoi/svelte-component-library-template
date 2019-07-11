@@ -1,0 +1,14 @@
+fieldset {
+    border: 1pt solid gray;
+    padding: 1em;
+    margin: 1em;
+    background-color: #fafafa;
+}
+legend {
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aaa;
+    padding: 0.5em;
+    vertical-align: middle;
+    display: inline-block;
+}
