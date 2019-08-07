@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/patoi/svelte-component-library-template.svg?branch=master)](https://travis-ci.org/patoi/svelte-component-library-template) [![Dependabot](https://badgen.net/badge/Dependabot/enabled/green?icon=dependabot)](https://dependabot.com/)
+
 # Svelte Components template
 
 A base for building Svelte _component library._
