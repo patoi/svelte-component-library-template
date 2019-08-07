@@ -18,11 +18,11 @@ cd svelte-component-library-template
 npm install # or yarn
 ```
 
-2. Add your component's code to [src/](./src/) as directory, e.g.: `src/HelloComponent/` (or add your component directly to `src/`).
+2. Add your component's code to [src/](./src/) as directory, e.g.: [src/HelloComponent/](./src/HelloComponent/) (or add your component directly to [src/](./src/)).
 
-3. Export the new component to apps in `src/index.js`
+3. Export the new component to apps in [src/index.js](./src/index.js)
 
-4. `src/test.js` and `src/App.svelte` are for testing purposes:
+4. (./src/test.js) and `src/App.svelte` are for testing purposes:
 
 -   add component to the `src/App.svelte`
 -   add component's properties to `src/test.js`
