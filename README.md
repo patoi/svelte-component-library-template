@@ -22,14 +22,14 @@ npm install # or yarn
 
 3. Export the new component to apps in [src/index.js](./src/index.js)
 
-4. (./src/test.js) and `src/App.svelte` are for testing purposes:
+4. [src/test.js](./src/test.js) and [src/App.svelte](./src/App.svelte) are for testing purposes:
 
--   add component to the `src/App.svelte`
--   add component's properties to `src/test.js`
+-   add component to the [src/App.svelte](./src/App.svelte)
+-   add component's properties to [src/test.js](./src/test.js)
 
 4. Create your test cases to your component:
 
--   add tests to `test/` directory
+-   add tests to [test/](./test/) directory
 
 ## Development
 
@@ -43,7 +43,7 @@ npm install # or yarn
 
 3. `npm test` : test runner
 
-For changing the view of the test page use `public/global.css` and `public/index.html`
+For changing the view of the test page use [public/global.css](./public/global.css) and [public/index.html](./public/index.html)
 
 ## Using components in app
 
