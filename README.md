@@ -10,6 +10,12 @@ Original work is https://github.com/sveltejs/component-template
 
 ## Using
 
+On GitHub:
+
+`Use this template` button on top right.
+
+CLI:
+
 1. Clone it with [degit](https://github.com/Rich-Harris/degit)
 
 ```bash
