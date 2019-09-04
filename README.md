@@ -14,6 +14,8 @@ On GitHub:
 
 `Use this template` button on top right.
 
+Read more: [Creating a repository from a template](https://help.github.com/en/articles/creating-a-repository-from-a-template)
+
 CLI:
 
 1. Clone it with [degit](https://github.com/Rich-Harris/degit)
