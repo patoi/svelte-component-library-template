@@ -2,9 +2,9 @@
 
 # Svelte Components template
 
-A base for building Svelte _component library._
+**You can create your own component library to your applications with this template.**
 
-You can create your own _component library_ to your applications with this template.
+A base for building Svelte _component library._
 
 Original work is https://github.com/sveltejs/component-template
 
