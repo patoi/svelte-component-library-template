@@ -16,7 +16,7 @@ Original work is https://github.com/sveltejs/component-template
 
 Read more: [Creating a repository from a template](https://help.github.com/en/articles/creating-a-repository-from-a-template)
 
-CLI:
+**CLI:**
 
 1. Clone it with [degit](https://github.com/Rich-Harris/degit)
 
