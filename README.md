@@ -10,7 +10,7 @@ Original work is https://github.com/sveltejs/component-template
 
 ## Using
 
-On GitHub:
+**On GitHub:**
 
 `Use this template` button on top right.
 
