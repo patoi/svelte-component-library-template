@@ -16,7 +16,7 @@
         "test": "npx nightwatch"
     },
     "devDependencies": {
-        "chromedriver": "^83.0.1",
+        "chromedriver": "^84.0.0",
         "eslint": "^7.4.0",
         "eslint-config-prettier": "^6.11.0",
         "eslint-plugin-html": "^6.0.2",
