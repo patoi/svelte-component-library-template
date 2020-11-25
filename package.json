@@ -32,7 +32,7 @@
         "rollup-plugin-node-resolve": "^5.2.0",
         "rollup-plugin-svelte": "^7.0.0",
         "sirv-cli": "^1.0.8",
-        "svelte": "^3.29.7"
+        "svelte": "^3.30.0"
     },
     "keywords": [
         "svelte",
