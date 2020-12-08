@@ -31,7 +31,7 @@
         "rollup-plugin-livereload": "^2.0.0",
         "rollup-plugin-node-resolve": "^5.2.0",
         "rollup-plugin-svelte": "^7.0.0",
-        "sirv-cli": "^1.0.9",
+        "sirv-cli": "^1.0.10",
         "svelte": "^3.31.0"
     },
     "keywords": [
