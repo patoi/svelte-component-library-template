@@ -1,10 +1,10 @@
 module.exports = {
     parserOptions: {
-        ecmaVersion: 2019,
+        ecmaVersion: 2021,
         sourceType: 'module',
     },
     env: {
-        es6: true,
+        es2020: true,
         browser: true,
         commonjs: true,
         mocha: true,
@@ -17,9 +17,6 @@ module.exports = {
             processor: 'svelte3/svelte3',
         },
     ],
-    rules: {
-        'comma-dangle': ['error', 'always-multiline'],
-    },
     settings: {},
-    extends: ['plugin:prettier/recommended'],
+    extends: ['eslint:recommended', 'prettier'],
 }
