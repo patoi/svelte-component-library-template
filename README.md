@@ -79,3 +79,5 @@ More: https://github.com/sveltejs/sapper-template/blob/master/README.md#using-ex
 -   `nightwatch` for testing: https://nightwatchjs.org
 -   `eslint` and `prettier` for formatting and linting
 -   `rollupjs` for bundling: https://rollupjs.org
+
+Supported Node.js v12 LTS and v14 LTS.
