@@ -63,8 +63,8 @@ Import _component library_ into your app in `App.svelte` :
 
 ```html
 <script>
-    import { ByeBye, Hello } from 'svelte-component-library-template'
-    export let name
+  import { ByeBye, Hello } from 'svelte-component-library-template'
+  export let name
 </script>
 
 <Hello {name} />
