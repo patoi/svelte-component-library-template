@@ -1,5 +1,5 @@
-[![Build Status](https://github.com/patoi/svelte-component-library-template
-/workflows/test/badge.svg)] [![Dependabot](https://badgen.net/badge/Dependabot/enabled/green?icon=dependabot)](https://dependabot.com/) ![](https://github.com/patoi/svelte-component-library-template/workflows/Auto%20merge%20Dependabot%20updates/badge.svg)
+![Build Status](https://github.com/patoi/svelte-component-library-template
+/workflows/test/badge.svg) [![Dependabot](https://badgen.net/badge/Dependabot/enabled/green?icon=dependabot)](https://dependabot.com/) ![](https://github.com/patoi/svelte-component-library-template/workflows/Auto%20merge%20Dependabot%20updates/badge.svg)
 
 # Svelte Components template
 
