@@ -16,5 +16,9 @@ jobs:
           node-version: '14.x'
       - name: Install npm deps
         run: npm ci
-      - name: Start application and running test
-        run: npm run webserver & sleep 2 && npm test
+      - name: Build Svelte application
+        run: npm run build
+      - name: Start application
+        run: npm run webserver &
+      - name: Running unit test
+        run: npm test
