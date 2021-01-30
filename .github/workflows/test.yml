@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Use Node.js v14
-      - uses: actions/setup-node@v2
+        uses: actions/setup-node@v2
         with:
           node-version: '14.x'
       - name: Install npm deps
@@ -19,7 +19,6 @@ jobs:
       - name: Start application
         run: npm run webserver &
       - name: Start browser
-      - run: |
-          google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+        run: google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
       - name: Running unit test
         run: npm test
