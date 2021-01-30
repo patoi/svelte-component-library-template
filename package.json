@@ -13,7 +13,7 @@
         "format:svelte": "prettier --parser html --check **/*.svelte",
         "format:js": "prettier --check **/*.js",
         "format": "run-p format:svelte format:js",
-        "test": "npx nightwatch"
+        "test": "nightwatch"
     },
     "devDependencies": {
         "chromedriver": "^88.0.0",
