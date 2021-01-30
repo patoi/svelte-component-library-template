@@ -18,7 +18,7 @@ jobs:
         run: npm ci
       - name: Start application
         run: npm run webserver &
-      - name: Start browser
-        run: google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+      # - name: Start browser
+      #   run: google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
       - name: Running unit test
         run: npm test
