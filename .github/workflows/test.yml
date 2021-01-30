@@ -1,0 +1,36 @@
+name: Test
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  security_test:
+    name: Security test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Use Node.js v14
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+      - name: Running security test
+        run: npm run sec
+
+  test:
+    name: User Acceptance test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Use Node.js v14
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+      - name: Install npm deps
+        run: npm ci
+      - name: Start application
+        run: npm run webserver &
+
+      - uses: microsoft/playwright-github-action@v1
+      - name: Running unit test
+        run: npm test
