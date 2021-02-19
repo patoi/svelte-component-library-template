@@ -35,7 +35,8 @@
     },
     "keywords": [
         "svelte",
-        "component"
+        "component",
+        "template"
     ],
     "files": [
         "src"
