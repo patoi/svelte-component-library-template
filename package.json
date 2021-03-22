@@ -19,7 +19,7 @@
         "chromedriver": "^88.0.0",
         "eslint": "^7.21.0",
         "eslint-config-prettier": "^8.1.0",
-        "eslint-plugin-html": "^6.1.1",
+        "eslint-plugin-html": "^6.1.2",
         "eslint-plugin-svelte3": "^3.1.2",
         "husky": "^5.1.2",
         "nightwatch": "^1.5.1",
