@@ -17,7 +17,7 @@
     },
     "devDependencies": {
         "chromedriver": "^89.0.0",
-        "eslint": "^7.22.0",
+        "eslint": "^7.24.0",
         "eslint-config-prettier": "^8.1.0",
         "eslint-plugin-html": "^6.1.2",
         "eslint-plugin-svelte3": "^3.1.2",
