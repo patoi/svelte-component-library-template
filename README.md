@@ -76,7 +76,7 @@ Import _component library_ into your app in `App.svelte` :
 More: https://github.com/sveltejs/sapper-template/blob/master/README.md#using-external-components
 
 -   `svelte` https://svelte.dev
--   `nightwatch` for testing: https://nightwatchjs.org
+-   `playwright` for testing: https://playwright.dev
 -   `eslint` and `prettier` for formatting and linting
 -   `rollupjs` for bundling: https://rollupjs.org
 

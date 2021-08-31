@@ -1,7 +1,7 @@
-describe('component2', () => {
-  it('Bye-bye John! is visible', async browser => {
-    await browser.url('http://localhost:5000/#/')
-    await browser.waitForElementVisible('h2')
-    browser.assert.containsText('h2', 'Bye-bye John!')
-  })
+const { test, expect } = require('@playwright/test')
+
+test('component1', async ({ page }) => {
+  await page.goto('http://localhost:5000/#/')
+  const welcome = page.locator('h2')
+  await expect(welcome).toHaveText('Bye-bye John!')
 })
